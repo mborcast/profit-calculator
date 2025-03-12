@@ -1,0 +1,42 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore package manager files
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ignore IDE files (for example, VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Python environment files
+Pipfile.lock
+poetry.lock
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore test/coverage folders
+tests/.coverage
+tests/test_*.pyc
